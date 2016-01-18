@@ -1,8 +1,8 @@
 // Storage for regular expressions
 SVG.regex = {
   // Parse unit value
-  unit:             /^(-?[\d\.]+)([a-z%]{0,2})$/
-  
+  unit:             /^([+-]?(\d+(\.\d*)?|\.\d+)([eE][+-]?\d+)?)(%|em|ex|px|pt|pc|cm|mm|in|s|ms|deg|rad|grad)?$/
+
   // Parse hex value
 , hex:              /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i
   
